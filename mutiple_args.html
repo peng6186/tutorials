@@ -1,0 +1,21 @@
+<!doctype html>
+	<html>
+		<head>
+			
+		</head>
+
+		<body>
+			<script type="text/javascript">
+				function func1(){
+					document.write("i'm in func1 \n");
+					func2();
+				}
+				function func2(){
+					document.write("i'm in func2 \n");
+					func1();
+				}
+				func1();
+			</script>
+
+		</body>
+	</html>
